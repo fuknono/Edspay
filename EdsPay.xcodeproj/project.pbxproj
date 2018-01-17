@@ -1,0 +1,954 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0996E91E7B846FC7D60650D6 /* Pods_EdsPay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1262D30D8DBFBC32F05DBF /* Pods_EdsPay.framework */; };
+		1FE2E3DB3F398DF34A8F2EB0 /* Pods_EdsPayUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9F73E9F12CE593352F05818 /* Pods_EdsPayUITests.framework */; };
+		51E1DCBD200F2D1700D26339 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E1DCBC200F2D1700D26339 /* AppDelegate.swift */; };
+		51E1DCBF200F2D1700D26339 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E1DCBE200F2D1700D26339 /* ViewController.swift */; };
+		51E1DCC2200F2D1700D26339 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51E1DCC0200F2D1700D26339 /* Main.storyboard */; };
+		51E1DCC4200F2D1700D26339 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51E1DCC3200F2D1700D26339 /* Assets.xcassets */; };
+		51E1DCC7200F2D1700D26339 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51E1DCC5200F2D1700D26339 /* LaunchScreen.storyboard */; };
+		51E1DCD2200F2D1700D26339 /* EdsPayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E1DCD1200F2D1700D26339 /* EdsPayTests.swift */; };
+		51E1DCDD200F2D1700D26339 /* EdsPayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E1DCDC200F2D1700D26339 /* EdsPayUITests.swift */; };
+		87257F46C255CE6FE4D8902A /* Pods_EdsPayTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3320A1FEC36F6299EE2DDBB4 /* Pods_EdsPayTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		51E1DCCE200F2D1700D26339 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51E1DCB1200F2D1700D26339 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51E1DCB8200F2D1700D26339;
+			remoteInfo = EdsPay;
+		};
+		51E1DCD9200F2D1700D26339 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51E1DCB1200F2D1700D26339 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51E1DCB8200F2D1700D26339;
+			remoteInfo = EdsPay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		288DCB121A54375D7DAC0B32 /* Pods-EdsPay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EdsPay.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EdsPay/Pods-EdsPay.debug.xcconfig"; sourceTree = "<group>"; };
+		3320A1FEC36F6299EE2DDBB4 /* Pods_EdsPayTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EdsPayTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B1262D30D8DBFBC32F05DBF /* Pods_EdsPay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EdsPay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		51E1DCB9200F2D1700D26339 /* EdsPay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EdsPay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		51E1DCBC200F2D1700D26339 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		51E1DCBE200F2D1700D26339 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		51E1DCC1200F2D1700D26339 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		51E1DCC3200F2D1700D26339 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		51E1DCC6200F2D1700D26339 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		51E1DCC8200F2D1700D26339 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51E1DCCD200F2D1700D26339 /* EdsPayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EdsPayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		51E1DCD1200F2D1700D26339 /* EdsPayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdsPayTests.swift; sourceTree = "<group>"; };
+		51E1DCD3200F2D1700D26339 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51E1DCD8200F2D1700D26339 /* EdsPayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EdsPayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		51E1DCDC200F2D1700D26339 /* EdsPayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdsPayUITests.swift; sourceTree = "<group>"; };
+		51E1DCDE200F2D1700D26339 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5361052AA31609018573B7E3 /* Pods-EdsPayTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EdsPayTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EdsPayTests/Pods-EdsPayTests.release.xcconfig"; sourceTree = "<group>"; };
+		9DBE99104E3ED13C4DC8E1FF /* Pods-EdsPay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EdsPay.release.xcconfig"; path = "Pods/Target Support Files/Pods-EdsPay/Pods-EdsPay.release.xcconfig"; sourceTree = "<group>"; };
+		CCE617FF76C1CCC986F8712E /* Pods-EdsPayUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EdsPayUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EdsPayUITests/Pods-EdsPayUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D7BB30868BFD2135F1D5C565 /* Pods-EdsPayUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EdsPayUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EdsPayUITests/Pods-EdsPayUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D9F73E9F12CE593352F05818 /* Pods_EdsPayUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EdsPayUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F77874D74C90643D27641AE3 /* Pods-EdsPayTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EdsPayTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EdsPayTests/Pods-EdsPayTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		51E1DCB6200F2D1700D26339 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0996E91E7B846FC7D60650D6 /* Pods_EdsPay.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51E1DCCA200F2D1700D26339 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87257F46C255CE6FE4D8902A /* Pods_EdsPayTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51E1DCD5200F2D1700D26339 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FE2E3DB3F398DF34A8F2EB0 /* Pods_EdsPayUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		51E1DCB0200F2D1700D26339 = {
+			isa = PBXGroup;
+			children = (
+				51E1DCBB200F2D1700D26339 /* EdsPay */,
+				51E1DCD0200F2D1700D26339 /* EdsPayTests */,
+				51E1DCDB200F2D1700D26339 /* EdsPayUITests */,
+				51E1DCBA200F2D1700D26339 /* Products */,
+				7B2620C643609DB3D8494DE5 /* Pods */,
+				58A1D4A53116363DA93EE08C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		51E1DCBA200F2D1700D26339 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				51E1DCB9200F2D1700D26339 /* EdsPay.app */,
+				51E1DCCD200F2D1700D26339 /* EdsPayTests.xctest */,
+				51E1DCD8200F2D1700D26339 /* EdsPayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		51E1DCBB200F2D1700D26339 /* EdsPay */ = {
+			isa = PBXGroup;
+			children = (
+				51E1DCBC200F2D1700D26339 /* AppDelegate.swift */,
+				51E1DD01200F2F0700D26339 /* Resouces */,
+				51E1DD00200F2E9600D26339 /* StoryBoard */,
+				51E1DCFF200F2E8000D26339 /* ToolKit */,
+				51E1DCFB200F2E4900D26339 /* common */,
+				51E1DCEA200F2E3E00D26339 /* Project */,
+			);
+			path = EdsPay;
+			sourceTree = "<group>";
+		};
+		51E1DCD0200F2D1700D26339 /* EdsPayTests */ = {
+			isa = PBXGroup;
+			children = (
+				51E1DCD1200F2D1700D26339 /* EdsPayTests.swift */,
+				51E1DCD3200F2D1700D26339 /* Info.plist */,
+			);
+			path = EdsPayTests;
+			sourceTree = "<group>";
+		};
+		51E1DCDB200F2D1700D26339 /* EdsPayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				51E1DCDC200F2D1700D26339 /* EdsPayUITests.swift */,
+				51E1DCDE200F2D1700D26339 /* Info.plist */,
+			);
+			path = EdsPayUITests;
+			sourceTree = "<group>";
+		};
+		51E1DCEA200F2E3E00D26339 /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				51E1DCEB200F2E3E00D26339 /* Home */,
+				51E1DCEF200F2E3E00D26339 /* Market */,
+				51E1DCF3200F2E3E00D26339 /* My */,
+				51E1DCF7200F2E3E00D26339 /* Project */,
+			);
+			path = Project;
+			sourceTree = "<group>";
+		};
+		51E1DCEB200F2E3E00D26339 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				51E1DCEC200F2E3E00D26339 /* Controllers */,
+				51E1DCED200F2E3E00D26339 /* Model */,
+				51E1DCEE200F2E3E00D26339 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		51E1DCEC200F2E3E00D26339 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		51E1DCED200F2E3E00D26339 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		51E1DCEE200F2E3E00D26339 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		51E1DCEF200F2E3E00D26339 /* Market */ = {
+			isa = PBXGroup;
+			children = (
+				51E1DCF0200F2E3E00D26339 /* Controllers */,
+				51E1DCF1200F2E3E00D26339 /* Model */,
+				51E1DCF2200F2E3E00D26339 /* View */,
+			);
+			path = Market;
+			sourceTree = "<group>";
+		};
+		51E1DCF0200F2E3E00D26339 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		51E1DCF1200F2E3E00D26339 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		51E1DCF2200F2E3E00D26339 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		51E1DCF3200F2E3E00D26339 /* My */ = {
+			isa = PBXGroup;
+			children = (
+				51E1DCF4200F2E3E00D26339 /* Controllers */,
+				51E1DCF5200F2E3E00D26339 /* Model */,
+				51E1DCF6200F2E3E00D26339 /* View */,
+			);
+			path = My;
+			sourceTree = "<group>";
+		};
+		51E1DCF4200F2E3E00D26339 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		51E1DCF5200F2E3E00D26339 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		51E1DCF6200F2E3E00D26339 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		51E1DCF7200F2E3E00D26339 /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				51E1DCF8200F2E3E00D26339 /* Controllers */,
+				51E1DCF9200F2E3E00D26339 /* Model */,
+				51E1DCFA200F2E3E00D26339 /* View */,
+			);
+			path = Project;
+			sourceTree = "<group>";
+		};
+		51E1DCF8200F2E3E00D26339 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		51E1DCF9200F2E3E00D26339 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		51E1DCFA200F2E3E00D26339 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		51E1DCFB200F2E4900D26339 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				51E1DCFC200F2E4900D26339 /* CommonModel */,
+				51E1DCFD200F2E4900D26339 /* CommonVC */,
+				51E1DCFE200F2E4900D26339 /* CommonView */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		51E1DCFC200F2E4900D26339 /* CommonModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CommonModel;
+			sourceTree = "<group>";
+		};
+		51E1DCFD200F2E4900D26339 /* CommonVC */ = {
+			isa = PBXGroup;
+			children = (
+				51E1DCBE200F2D1700D26339 /* ViewController.swift */,
+			);
+			path = CommonVC;
+			sourceTree = "<group>";
+		};
+		51E1DCFE200F2E4900D26339 /* CommonView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CommonView;
+			sourceTree = "<group>";
+		};
+		51E1DCFF200F2E8000D26339 /* ToolKit */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ToolKit;
+			sourceTree = "<group>";
+		};
+		51E1DD00200F2E9600D26339 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				51E1DCC0200F2D1700D26339 /* Main.storyboard */,
+				51E1DCC5200F2D1700D26339 /* LaunchScreen.storyboard */,
+				51E1DCC8200F2D1700D26339 /* Info.plist */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		51E1DD01200F2F0700D26339 /* Resouces */ = {
+			isa = PBXGroup;
+			children = (
+				51E1DCC3200F2D1700D26339 /* Assets.xcassets */,
+			);
+			path = Resouces;
+			sourceTree = "<group>";
+		};
+		58A1D4A53116363DA93EE08C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B1262D30D8DBFBC32F05DBF /* Pods_EdsPay.framework */,
+				3320A1FEC36F6299EE2DDBB4 /* Pods_EdsPayTests.framework */,
+				D9F73E9F12CE593352F05818 /* Pods_EdsPayUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7B2620C643609DB3D8494DE5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				288DCB121A54375D7DAC0B32 /* Pods-EdsPay.debug.xcconfig */,
+				9DBE99104E3ED13C4DC8E1FF /* Pods-EdsPay.release.xcconfig */,
+				F77874D74C90643D27641AE3 /* Pods-EdsPayTests.debug.xcconfig */,
+				5361052AA31609018573B7E3 /* Pods-EdsPayTests.release.xcconfig */,
+				D7BB30868BFD2135F1D5C565 /* Pods-EdsPayUITests.debug.xcconfig */,
+				CCE617FF76C1CCC986F8712E /* Pods-EdsPayUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		51E1DCB8200F2D1700D26339 /* EdsPay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51E1DCE1200F2D1700D26339 /* Build configuration list for PBXNativeTarget "EdsPay" */;
+			buildPhases = (
+				85E26B039F4CD1032690DFD6 /* [CP] Check Pods Manifest.lock */,
+				51E1DCB5200F2D1700D26339 /* Sources */,
+				51E1DCB6200F2D1700D26339 /* Frameworks */,
+				51E1DCB7200F2D1700D26339 /* Resources */,
+				6997760CD1BB0E132BCC4F1F /* [CP] Embed Pods Frameworks */,
+				E5F9733AA1ECBF7D156907A3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EdsPay;
+			productName = EdsPay;
+			productReference = 51E1DCB9200F2D1700D26339 /* EdsPay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		51E1DCCC200F2D1700D26339 /* EdsPayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51E1DCE4200F2D1700D26339 /* Build configuration list for PBXNativeTarget "EdsPayTests" */;
+			buildPhases = (
+				A6B6752D066F2B8F7B721A74 /* [CP] Check Pods Manifest.lock */,
+				51E1DCC9200F2D1700D26339 /* Sources */,
+				51E1DCCA200F2D1700D26339 /* Frameworks */,
+				51E1DCCB200F2D1700D26339 /* Resources */,
+				F4C93038DAA673D9E50ACA73 /* [CP] Embed Pods Frameworks */,
+				71901B7AD794AF1C47E982F1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				51E1DCCF200F2D1700D26339 /* PBXTargetDependency */,
+			);
+			name = EdsPayTests;
+			productName = EdsPayTests;
+			productReference = 51E1DCCD200F2D1700D26339 /* EdsPayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		51E1DCD7200F2D1700D26339 /* EdsPayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51E1DCE7200F2D1700D26339 /* Build configuration list for PBXNativeTarget "EdsPayUITests" */;
+			buildPhases = (
+				EE075BCE01399C65E24916BC /* [CP] Check Pods Manifest.lock */,
+				51E1DCD4200F2D1700D26339 /* Sources */,
+				51E1DCD5200F2D1700D26339 /* Frameworks */,
+				51E1DCD6200F2D1700D26339 /* Resources */,
+				18893A5FBF5CFF7280A27446 /* [CP] Embed Pods Frameworks */,
+				80E804D9F90E92077EE8C674 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				51E1DCDA200F2D1700D26339 /* PBXTargetDependency */,
+			);
+			name = EdsPayUITests;
+			productName = EdsPayUITests;
+			productReference = 51E1DCD8200F2D1700D26339 /* EdsPayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		51E1DCB1200F2D1700D26339 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = com.chuxiang;
+				TargetAttributes = {
+					51E1DCB8200F2D1700D26339 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					51E1DCCC200F2D1700D26339 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 51E1DCB8200F2D1700D26339;
+					};
+					51E1DCD7200F2D1700D26339 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 51E1DCB8200F2D1700D26339;
+					};
+				};
+			};
+			buildConfigurationList = 51E1DCB4200F2D1700D26339 /* Build configuration list for PBXProject "EdsPay" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 51E1DCB0200F2D1700D26339;
+			productRefGroup = 51E1DCBA200F2D1700D26339 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				51E1DCB8200F2D1700D26339 /* EdsPay */,
+				51E1DCCC200F2D1700D26339 /* EdsPayTests */,
+				51E1DCD7200F2D1700D26339 /* EdsPayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		51E1DCB7200F2D1700D26339 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51E1DCC7200F2D1700D26339 /* LaunchScreen.storyboard in Resources */,
+				51E1DCC4200F2D1700D26339 /* Assets.xcassets in Resources */,
+				51E1DCC2200F2D1700D26339 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51E1DCCB200F2D1700D26339 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51E1DCD6200F2D1700D26339 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18893A5FBF5CFF7280A27446 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-EdsPayUITests/Pods-EdsPayUITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EdsPayUITests/Pods-EdsPayUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6997760CD1BB0E132BCC4F1F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EdsPay/Pods-EdsPay-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71901B7AD794AF1C47E982F1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EdsPayTests/Pods-EdsPayTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80E804D9F90E92077EE8C674 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EdsPayUITests/Pods-EdsPayUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85E26B039F4CD1032690DFD6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EdsPay-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6B6752D066F2B8F7B721A74 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EdsPayTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5F9733AA1ECBF7D156907A3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EdsPay/Pods-EdsPay-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE075BCE01399C65E24916BC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EdsPayUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4C93038DAA673D9E50ACA73 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EdsPayTests/Pods-EdsPayTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		51E1DCB5200F2D1700D26339 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51E1DCBF200F2D1700D26339 /* ViewController.swift in Sources */,
+				51E1DCBD200F2D1700D26339 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51E1DCC9200F2D1700D26339 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51E1DCD2200F2D1700D26339 /* EdsPayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51E1DCD4200F2D1700D26339 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51E1DCDD200F2D1700D26339 /* EdsPayUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		51E1DCCF200F2D1700D26339 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 51E1DCB8200F2D1700D26339 /* EdsPay */;
+			targetProxy = 51E1DCCE200F2D1700D26339 /* PBXContainerItemProxy */;
+		};
+		51E1DCDA200F2D1700D26339 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 51E1DCB8200F2D1700D26339 /* EdsPay */;
+			targetProxy = 51E1DCD9200F2D1700D26339 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		51E1DCC0200F2D1700D26339 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51E1DCC1200F2D1700D26339 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		51E1DCC5200F2D1700D26339 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51E1DCC6200F2D1700D26339 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		51E1DCDF200F2D1700D26339 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		51E1DCE0200F2D1700D26339 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		51E1DCE2200F2D1700D26339 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 288DCB121A54375D7DAC0B32 /* Pods-EdsPay.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EdsPay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qianbao.EdsPay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		51E1DCE3200F2D1700D26339 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DBE99104E3ED13C4DC8E1FF /* Pods-EdsPay.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EdsPay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qianbao.EdsPay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		51E1DCE5200F2D1700D26339 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F77874D74C90643D27641AE3 /* Pods-EdsPayTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EdsPayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qianbao.EdsPayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EdsPay.app/EdsPay";
+			};
+			name = Debug;
+		};
+		51E1DCE6200F2D1700D26339 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5361052AA31609018573B7E3 /* Pods-EdsPayTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EdsPayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qianbao.EdsPayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EdsPay.app/EdsPay";
+			};
+			name = Release;
+		};
+		51E1DCE8200F2D1700D26339 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7BB30868BFD2135F1D5C565 /* Pods-EdsPayUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EdsPayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qianbao.EdsPayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EdsPay;
+			};
+			name = Debug;
+		};
+		51E1DCE9200F2D1700D26339 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCE617FF76C1CCC986F8712E /* Pods-EdsPayUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EdsPayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qianbao.EdsPayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EdsPay;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		51E1DCB4200F2D1700D26339 /* Build configuration list for PBXProject "EdsPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51E1DCDF200F2D1700D26339 /* Debug */,
+				51E1DCE0200F2D1700D26339 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51E1DCE1200F2D1700D26339 /* Build configuration list for PBXNativeTarget "EdsPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51E1DCE2200F2D1700D26339 /* Debug */,
+				51E1DCE3200F2D1700D26339 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51E1DCE4200F2D1700D26339 /* Build configuration list for PBXNativeTarget "EdsPayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51E1DCE5200F2D1700D26339 /* Debug */,
+				51E1DCE6200F2D1700D26339 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51E1DCE7200F2D1700D26339 /* Build configuration list for PBXNativeTarget "EdsPayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51E1DCE8200F2D1700D26339 /* Debug */,
+				51E1DCE9200F2D1700D26339 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 51E1DCB1200F2D1700D26339 /* Project object */;
+}
