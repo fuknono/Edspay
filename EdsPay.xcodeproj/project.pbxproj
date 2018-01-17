@@ -16,6 +16,10 @@
 		51E1DCC7200F2D1700D26339 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51E1DCC5200F2D1700D26339 /* LaunchScreen.storyboard */; };
 		51E1DCD2200F2D1700D26339 /* EdsPayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E1DCD1200F2D1700D26339 /* EdsPayTests.swift */; };
 		51E1DCDD200F2D1700D26339 /* EdsPayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E1DCDC200F2D1700D26339 /* EdsPayUITests.swift */; };
+		51E1DD02200F33E100D26339 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 51E1DCC8200F2D1700D26339 /* Info.plist */; };
+		51E1DD05200F349A00D26339 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51E1DD04200F349A00D26339 /* Images.xcassets */; };
+		51E1DD09200F36CF00D26339 /* AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E1DD08200F36CF00D26339 /* AppColor.swift */; };
+		51E1DD0A200F37CD00D26339 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E1DD07200F369700D26339 /* ColorExtension.swift */; };
 		87257F46C255CE6FE4D8902A /* Pods_EdsPayTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3320A1FEC36F6299EE2DDBB4 /* Pods_EdsPayTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +57,9 @@
 		51E1DCD8200F2D1700D26339 /* EdsPayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EdsPayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		51E1DCDC200F2D1700D26339 /* EdsPayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdsPayUITests.swift; sourceTree = "<group>"; };
 		51E1DCDE200F2D1700D26339 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51E1DD04200F349A00D26339 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		51E1DD07200F369700D26339 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		51E1DD08200F36CF00D26339 /* AppColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColor.swift; sourceTree = "<group>"; };
 		5361052AA31609018573B7E3 /* Pods-EdsPayTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EdsPayTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EdsPayTests/Pods-EdsPayTests.release.xcconfig"; sourceTree = "<group>"; };
 		9DBE99104E3ED13C4DC8E1FF /* Pods-EdsPay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EdsPay.release.xcconfig"; path = "Pods/Target Support Files/Pods-EdsPay/Pods-EdsPay.release.xcconfig"; sourceTree = "<group>"; };
 		CCE617FF76C1CCC986F8712E /* Pods-EdsPayUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EdsPayUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EdsPayUITests/Pods-EdsPayUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -115,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				51E1DCBC200F2D1700D26339 /* AppDelegate.swift */,
+				51E1DD06200F363A00D26339 /* Configuration(配置) */,
 				51E1DD01200F2F0700D26339 /* Resouces */,
 				51E1DD00200F2E9600D26339 /* StoryBoard */,
 				51E1DCFF200F2E8000D26339 /* ToolKit */,
@@ -312,6 +320,7 @@
 		51E1DCFF200F2E8000D26339 /* ToolKit */ = {
 			isa = PBXGroup;
 			children = (
+				51E1DD07200F369700D26339 /* ColorExtension.swift */,
 			);
 			path = ToolKit;
 			sourceTree = "<group>";
@@ -321,7 +330,6 @@
 			children = (
 				51E1DCC0200F2D1700D26339 /* Main.storyboard */,
 				51E1DCC5200F2D1700D26339 /* LaunchScreen.storyboard */,
-				51E1DCC8200F2D1700D26339 /* Info.plist */,
 			);
 			path = StoryBoard;
 			sourceTree = "<group>";
@@ -329,9 +337,19 @@
 		51E1DD01200F2F0700D26339 /* Resouces */ = {
 			isa = PBXGroup;
 			children = (
+				51E1DCC8200F2D1700D26339 /* Info.plist */,
 				51E1DCC3200F2D1700D26339 /* Assets.xcassets */,
+				51E1DD04200F349A00D26339 /* Images.xcassets */,
 			);
 			path = Resouces;
+			sourceTree = "<group>";
+		};
+		51E1DD06200F363A00D26339 /* Configuration(配置) */ = {
+			isa = PBXGroup;
+			children = (
+				51E1DD08200F36CF00D26339 /* AppColor.swift */,
+			);
+			path = "Configuration(配置)";
 			sourceTree = "<group>";
 		};
 		58A1D4A53116363DA93EE08C /* Frameworks */ = {
@@ -473,6 +491,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51E1DD02200F33E100D26339 /* Info.plist in Resources */,
+				51E1DD05200F349A00D26339 /* Images.xcassets in Resources */,
 				51E1DCC7200F2D1700D26339 /* LaunchScreen.storyboard in Resources */,
 				51E1DCC4200F2D1700D26339 /* Assets.xcassets in Resources */,
 				51E1DCC2200F2D1700D26339 /* Main.storyboard in Resources */,
@@ -652,6 +672,8 @@
 			files = (
 				51E1DCBF200F2D1700D26339 /* ViewController.swift in Sources */,
 				51E1DCBD200F2D1700D26339 /* AppDelegate.swift in Sources */,
+				51E1DD09200F36CF00D26339 /* AppColor.swift in Sources */,
+				51E1DD0A200F37CD00D26339 /* ColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -818,8 +840,9 @@
 			baseConfigurationReference = 288DCB121A54375D7DAC0B32 /* Pods-EdsPay.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = EdsPay/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/EdsPay/Resouces/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = qianbao.EdsPay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -833,8 +856,9 @@
 			baseConfigurationReference = 9DBE99104E3ED13C4DC8E1FF /* Pods-EdsPay.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = EdsPay/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/EdsPay/Resouces/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = qianbao.EdsPay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
